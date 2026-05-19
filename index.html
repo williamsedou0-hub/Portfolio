@@ -2,205 +2,155 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Pharès</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <title>Mon Portfolio</title>
 </head>
 
-<body class="bg-gray-900 text-white">
+<body class="bg-[#111111] text-white overflow-x-hidden relative">
 
-  <!-- HEADER -->
-  <header class="flex justify-between items-center p-5">
-    
-    <!-- Logo / Nom -->
-    <h1 class="text-xl font-bold">Pharès</h1>
+<div class="absolute top-0 left-0 w-72 h-72 bg-lime-400 opacity-20 blur-3xl rounded-full"></div>
 
-    <!-- Navigation -->
-    <nav class="space-x-6">
-      <a href="#" class="hover:text-yellow-400">Accueil</a>
-      <a href="#" class="hover:text-yellow-400">À propos</a>
-      <a href="#" class="hover:text-yellow-400">Projets</a>
-      <a href="#" class="hover:text-yellow-400">Contact</a>
-    </nav>
+<div class="absolute bottom-0 right-0 w-96 h-96 bg-lime-400 opacity-10 blur-3xl rounded-full"></div>
+<section class="min-h-screen px-6 md:px-16 pt-8 bg-[#111111]">
 
-  </header>
-  <!-- HERO -->
-<section class="text-center mt-20 px-4">
+  <nav class="max-w-5xl mx-auto bg-black rounded-full px-6 py-4 flex items-center justify-between shadow-lg">
 
-  <h2 class="text-4xl md:text-5xl font-bold">
-  Salut, moi c’est <span class="text-yellow-400">Pharès</span>
-</h2>
+    <div class="flex items-center gap-3">
 
-  <p class="mt-4 text-gray-400 max-w-xl mx-auto">
-    Je crée des interfaces web modernes, rapides et responsive avec HTML, Tailwind CSS et JavaScript.
-  </p>
+      <img 
+        src="images/arrondi.jpeg"
+        alt="profil"
+        class="w-10 h-10 rounded-full object-cover"
+      >
 
-  <div class="mt-6">
-    <a href="#" class="bg-yellow-400 text-black px-6 py-2 rounded-lg hover:bg-yellow-300">
-      Voir mes projets
-    </a>
-  </div>
+      <span class="font-semibold text-sm md:text-base">
+        Pharès
+      </span>
 
-</section>
+    </div>
 
-<!-- A PROPOS -->
-<section class="mt-20 px-6 md:px-20">
+    <div class="hidden md:flex gap-8 text-sm">
 
-  <div class="flex flex-col md:flex-row items-center gap-8">
-    
-    <!-- Image -->
-    <img src="CV.jpg"
-         alt="photo profil"
-         class="w-40 h-40 rounded-full object-cover">
+      <a href="index.html" class="hover:text-lime-400 transition">
+        Home
+      </a>
 
-    <!-- Texte -->
+      <a href="about.html" class="hover:text-lime-400 transition">
+        About
+      </a>
+
+      <a href="projects.html" class="hover:text-lime-400 transition">
+        Projects
+      </a>
+
+      <a href="contact.html" class="hover:text-lime-400 transition">
+        Contact
+      </a>
+
+    </div>
+
+    <a href="contact.html"
+       class="bg-white text-black px-5 py-2 rounded-full font-medium hover:bg-lime-400 hover:scale-105 transition duration-300"
+       Contact
+      </a>
+
+  </nav>
+
+  <div class="grid md:grid-cols-3 items-center mt-20 gap-10">
+
     <div>
-      <h2 class="text-2xl font-bold mb-4">À propos de moi</h2>
-      
-      <p class="text-gray-400">
-        Je suis un développeur frontend passionné par la création d’interfaces modernes et interactives.
-        J’aime transformer des idées en expériences web fluides et agréables.
+
+      <p class="uppercase tracking-[5px] text-lime-400 text-sm">
+        Pharès Williams
       </p>
 
-      <p class="text-gray-400 mt-3">
-        Actuellement en formation, je développe mes compétences en HTML, Tailwind CSS et JavaScript
-        pour devenir un développeur professionnel.
+      <h1 class="text-5xl md:text-7xl font-extrabold leading-none mt-4">
+        DIGITAL
+      </h1>
+
+    </div>
+
+    <div class="relative flex justify-center">
+
+      <img 
+        src="images/Test....jpeg"
+        alt="photo"
+        class="w-72 md:w-96 rounded-3xl object-cover shadow-2xl hover:scale-105 transition duration-500"
+      >
+
+      <div class="absolute -bottom-5 -left-5 w-20 h-20 bg-lime-400 rounded-full flex items-center justify-center text-black text-3xl shadow-xl">
+        ✋
+      </div>
+
+    </div>
+
+    <div>
+
+      <h1 class="text-5xl md:text-7xl font-extrabold leading-none">
+        DESIGNER
+      </h1>
+
+      <p class="text-gray-400 mt-5 leading-relaxed">
+        Je suis un développeur frontend passionné par la création de sites modernes et responsive.
       </p>
+
     </div>
 
   </div>
 
-</section>
+  <div class="text-center mt-20 animate-bounce text-lime-400">
 
-<!-- FORMATION -->
-<section class="mt-20 px-6 md:px-20">
+    <p>↓ Scroll</p>
 
-  <h2 class="text-3xl font-bold text-center mb-10">
-    Formation
-  </h2>
+  </div>
 
-  <div class="grid md:grid-cols-2 gap-6">
+<footer class="mt-24 border-t border-gray-800 pt-10 pb-6">
 
-    <!-- Carte 1 -->
-    <div class="bg-gray-800 p-6 rounded-xl">
-      <h3 class="text-xl font-bold text-yellow-400">
-        Licence Informatique
-      </h3>
-      <p class="text-gray-400 mt-2">
-        UNIVERS PROFESSIONNEL- 2024 - 2026
+  <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+
+    <div>
+
+      <h2 class="text-2xl font-bold">
+        Pharès
+      </h2>
+
+      <p class="text-gray-400 mt-2 text-sm">
+        Frontend Developer • Portfolio 2025
       </p>
-      <p class="text-gray-300 mt-3">
-        Formation en développement web, algorithmique et bases de données.
-      </p>
+
     </div>
 
-    <!-- Carte 2 -->
-    <div class="bg-gray-800 p-6 rounded-xl">
-      <h3 class="text-xl font-bold text-yellow-400">
-        Baccalauréat Lycée Calasanz
-      </h3>
-      <p class="text-gray-400 mt-2">
-        2023
-      </p>
-      <p class="text-gray-300 mt-3">
-        Spécialité sciences et mathématiques.
-      </p>
+    <div class="flex gap-6 text-sm">
+
+      <a href="https://github.com/williamsedou0-hub"
+         target="_blank"
+         class="hover:text-lime-400 transition">
+         GitHub
+      </a>
+
+      <a href="#"
+         class="hover:text-lime-400 transition">
+         LinkedIn
+      </a>
+
+      <a href="https://www.instagram.com/williamsedou0?igsh=MXhjYWFqNXZxNzRueg%3D%3D&utm_source=qr"
+         class="hover:text-lime-400 transition">
+         Instagram
+      </a>
+
     </div>
 
   </div>
 
-</section>
+  <div class="text-center text-gray-500 text-sm mt-10">
 
-<!-- EXPERIENCES -->
-<section class="mt-20 px-6 md:px-20">
-
-  <h2 class="text-3xl font-bold text-center mb-10">
-    Expériences professionnelles
-  </h2>
-
-  <div class="space-y-6">
-
-    <!-- Expérience 1 -->
-    <div class="bg-gray-800 p-6 rounded-xl">
-      <h3 class="text-xl font-bold text-yellow-400">
-        Développeur Frontend (Projet scolaire)
-      </h3>
-
-      <p class="text-gray-400 mt-2">
-        2025 - 2026
-      </p>
-
-      <p class="text-gray-300 mt-3">
-        Création d’interfaces web responsive avec HTML et Tailwind CSS dans le cadre de projets académiques.
-        Intégration de composants modernes et respect des bonnes pratiques UI/UX.
-      </p>
-    </div>
-
-    <!-- Expérience 2 -->
-    <div class="bg-gray-800 p-6 rounded-xl">
-      <h3 class="text-xl font-bold text-yellow-400">
-        Mini projets personnels
-      </h3>
-
-      <p class="text-gray-400 mt-2">
-        2024 - 2025
-      </p>
-
-      <p class="text-gray-300 mt-3">
-        Réalisation de petits projets web (portfolio, pages statiques, exercices frontend)
-        pour améliorer mes compétences en développement.
-      </p>
-    </div>
-    <!-- Expérience 3 -->
-    <div class="bg-gray-800 p-6 rounded-xl">
-      <h3 class="text-xl font-bold text-yellow-400">
-        Chef Rayoniste ( CecaGadis , Gabon Libreville)
-      </h3>
-
-      <p class="text-gray-400 mt-2">
-        2023 - 2024
-      </p>
-
-      <p class="text-gray-300 mt-3">
-        Rangement des rayons du magasin , chef d'équipe rangements 
-      </p>
-    </div>
+    © 2025 Pharès Williams — Tous droits réservés.
 
   </div>
 
-</section>
-
-<!-- COMPETENCES -->
-<section class="mt-20 px-6 md:px-20">
-
-  <h2 class="text-3xl font-bold text-center mb-10">
-    Compétences
-  </h2>
-
-  <div class="flex flex-wrap justify-center gap-4">
-
-    <span class="bg-gray-800 px-4 py-2 rounded-full text-yellow-400">
-      HTML
-    </span>
-
-    <span class="bg-gray-800 px-4 py-2 rounded-full text-yellow-400">
-      Tailwind CSS
-    </span>
-
-    <span class="bg-gray-800 px-4 py-2 rounded-full text-yellow-400">
-      CSS
-    </span>
-
-    <span class="bg-gray-800 px-4 py-2 rounded-full text-yellow-400">
-      JavaScript
-    </span>
-
-    <span class="bg-gray-800 px-4 py-2 rounded-full text-yellow-400">
-      Git & GitHub
-    </span>
-
-  </div>
+</footer>
 
 </section>
-
 </body>
 </html>
