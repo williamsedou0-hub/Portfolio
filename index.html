@@ -14,76 +14,80 @@
 <div class="absolute bottom-0 right-0 w-96 h-96 bg-lime-400 opacity-10 blur-3xl rounded-full"></div>
 <section class="min-h-screen px-6 md:px-16 pt-8 bg-[#111111]">
 
-  <nav class="max-w-5xl mx-auto bg-black rounded-full px-6 py-4 flex items-center justify-between shadow-lg">
+  <nav class="max-w-5xl mx-auto bg-black rounded-full px-6 py-4 flex items-center justify-between shadow-lg relative">
 
-    <div class="flex items-center gap-3">
+  <div class="flex items-center gap-3">
 
-      <img 
-        src="images/arrondi.jpeg"
-        alt="profil"
-        class="w-10 h-10 rounded-full object-cover"
-      >
+    <img 
+      src="images/arrondi.jpeg"
+      alt="profil"
+      class="w-10 h-10 rounded-full object-cover"
+    >
 
-      <span class="font-semibold text-sm md:text-base">
-        Pharès
-      </span>
+    <span class="font-semibold text-sm md:text-base">
+      Pharès
+    </span>
 
-    </div>
+  </div>
 
-    <div class="hidden md:flex gap-8 text-sm">
+  <div class="hidden md:flex gap-8 text-sm">
 
-       <button id="menu-btn"
-        class="md:hidden text-3xl text-white">
+    <a href="index.html" class="hover:text-lime-400 transition">
+      Home
+    </a>
 
-       ☰
+    <a href="about.html" class="hover:text-lime-400 transition">
+      About
+    </a>
 
-</button>
+    <a href="projects.html" class="hover:text-lime-400 transition">
+      Projects
+    </a>
 
-      <a href="index.html" class="hover:text-lime-400 transition">
-        Home
-      </a>
+    <a href="contact.html" class="hover:text-lime-400 transition">
+      Contact
+    </a>
 
-      <a href="about.html" class="hover:text-lime-400 transition">
-        About
-      </a>
+  </div>
 
-      <a href="projects.html" class="hover:text-lime-400 transition">
-        Projects
-      </a>
+  <div class="flex items-center gap-4">
 
-      <a href="contact.html" class="hover:text-lime-400 transition">
-        Contact
-      </a>
+    <button id="menu-btn"
+            class="md:hidden text-3xl text-white">
 
-    </div>
+      ☰
+
+    </button>
 
     <a href="contact.html"
-   class="bg-white text-black px-5 py-2 rounded-full font-medium hover:bg-lime-400 hover:scale-105 transition duration-300">
-   Contact
-   </a>
+       class="bg-white text-black px-5 py-2 rounded-full font-medium hover:bg-lime-400 hover:scale-105 transition duration-300">
+       Contact
+    </a>
 
-<div id="mobile-menu"
-     class="hidden absolute top-24 left-6 right-6 bg-black rounded-3xl p-8 flex flex-col gap-6 text-center border border-gray-800 z-50">
+  </div>
 
-  <a href="index.html" class="hover:text-lime-400 transition">
-    Home
-  </a>
+  <div id="mobile-menu"
+       class="hidden absolute top-24 left-6 right-6 bg-black rounded-3xl p-8 flex flex-col gap-6 text-center border border-gray-800 z-50">
 
-  <a href="about.html" class="hover:text-lime-400 transition">
-    About
-  </a>
+    <a href="index.html" class="hover:text-lime-400 transition">
+      Home
+    </a>
 
-  <a href="projects.html" class="hover:text-lime-400 transition">
-    Projects
-  </a>
+    <a href="about.html" class="hover:text-lime-400 transition">
+      About
+    </a>
 
-  <a href="contact.html" class="hover:text-lime-400 transition">
-    Contact
-  </a>
+    <a href="projects.html" class="hover:text-lime-400 transition">
+      Projects
+    </a>
 
-</div>
+    <a href="contact.html" class="hover:text-lime-400 transition">
+      Contact
+    </a>
 
-  </nav>
+  </div>
+
+</nav>
 
   <div class="grid md:grid-cols-3 items-center mt-20 gap-10">
 
@@ -181,5 +185,6 @@
 </footer>
 
 </section>
+<script src="js/script.js"></script>
 </body>
 </html>
